@@ -26,15 +26,10 @@ function App() {
     <div className="AestheticClock">
       <header className="AestheticClock-header">
         {`${getCalendarComponent('hours')} ${getCalendarComponent('minutes')} ${getCalendarComponent('seconds')}`}
-        <a
-          className="AestheticClock-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Download
-        </a>
       </header>
+      <p className="AestheticClock-body">
+        AestheticClock macOS Screensaver: <a href='/AestheticClockSaver-older-mac.dmg' className='AestheticClock-link' download>older-mac</a> OR <a href='/AestheticClockSaver-newer-mac.dmg' className='AestheticClock-link' download>newer-mac</a>
+      </p>
     </div>
   );
 }
