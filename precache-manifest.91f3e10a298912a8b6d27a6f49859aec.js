@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/AestheticClock-web/static/media/HelveticaNeue-UltraLight.0a15436e.otf"
   },
   {
-    "revision": "a1e0e66b1b68821c14256c2e88121e81",
+    "revision": "7f980caad1c261b873ae93a102606656",
     "url": "/AestheticClock-web/index.html"
   }
 ];
