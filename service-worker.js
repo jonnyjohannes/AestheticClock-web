@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/aesthetic-clock/precache-manifest.42e24ae6c617bdc2839a1876e7e74c12.js"
+  "/AestheticClock-web/precache-manifest.d385d3e6fcacdac099f0356187786d17.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/aesthetic-clock/index.html", {
+workbox.routing.registerNavigationRoute("/AestheticClock-web/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
