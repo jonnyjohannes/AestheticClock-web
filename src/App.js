@@ -32,7 +32,7 @@ function App() {
       </header>
       <div id="AestheticClock-body">
         <p>
-          AestheticClock macOS Screensaver: <a href='/AestheticClock.saver.zip' className='AestheticClock-link' download>download</a>
+          AestheticClock macOS Screensaver: <a href='/AestheticClockSaver.zip' className='AestheticClock-link' download>download</a>
         </p>
       </div>
     </div>
