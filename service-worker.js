@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AestheticClock-web/precache-manifest.91f3e10a298912a8b6d27a6f49859aec.js"
+  "/AestheticClock-web/precache-manifest.d477209e8a5cd7034ea36138ff48bf42.js"
 );
 
 workbox.clientsClaim();
