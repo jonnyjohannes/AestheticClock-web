@@ -26,10 +26,15 @@ function App() {
     <div className="AestheticClock">
       <header className="AestheticClock-header">
         {`${getCalendarComponent('hours')} ${getCalendarComponent('minutes')} ${getCalendarComponent('seconds')}`}
+        <div class="footer-nudge">
+          <a href="#AestheticClock-body" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+        </div>
       </header>
-      <p className="AestheticClock-body">
-        AestheticClock macOS Screensaver: <a href='/AestheticClockSaver-older-mac.dmg' className='AestheticClock-link' download>older-mac</a> OR <a href='/AestheticClockSaver-newer-mac.dmg' className='AestheticClock-link' download>newer-mac</a>
-      </p>
+      <div id="AestheticClock-body">
+        <p>
+          AestheticClock macOS Screensaver: <a href='/AestheticClock.saver.zip' className='AestheticClock-link' download>download</a>
+        </p>
+      </div>
     </div>
   );
 }
