@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2367efbcee3bfa44cd27",
-    "url": "/AestheticClock-web/static/css/main.b8773b9e.chunk.css"
+    "revision": "ebfeea12c54012f46198",
+    "url": "/AestheticClock-web/static/css/main.aadebcb8.chunk.css"
   },
   {
-    "revision": "2367efbcee3bfa44cd27",
-    "url": "/AestheticClock-web/static/js/main.2367efbc.chunk.js"
+    "revision": "ebfeea12c54012f46198",
+    "url": "/AestheticClock-web/static/js/main.ebfeea12.chunk.js"
   },
   {
     "revision": "3c11774c00c8fe3168dd",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/AestheticClock-web/static/media/HelveticaNeue-UltraLight.0a15436e.otf"
   },
   {
-    "revision": "8fb9c5a699b268a9cdb2f0598b2d97c4",
+    "revision": "45febdc73f2431b4d01337f444143d22",
     "url": "/AestheticClock-web/index.html"
   }
 ];

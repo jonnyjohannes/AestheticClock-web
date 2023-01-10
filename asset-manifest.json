@@ -1,7 +1,7 @@
 {
-  "main.css": "/AestheticClock-web/static/css/main.b8773b9e.chunk.css",
-  "main.js": "/AestheticClock-web/static/js/main.2367efbc.chunk.js",
-  "main.js.map": "/AestheticClock-web/static/js/main.2367efbc.chunk.js.map",
+  "main.css": "/AestheticClock-web/static/css/main.aadebcb8.chunk.css",
+  "main.js": "/AestheticClock-web/static/js/main.ebfeea12.chunk.js",
+  "main.js.map": "/AestheticClock-web/static/js/main.ebfeea12.chunk.js.map",
   "static/js/1.3c11774c.chunk.js": "/AestheticClock-web/static/js/1.3c11774c.chunk.js",
   "static/js/1.3c11774c.chunk.js.map": "/AestheticClock-web/static/js/1.3c11774c.chunk.js.map",
   "static/js/2.cddc92c4.chunk.js": "/AestheticClock-web/static/js/2.cddc92c4.chunk.js",
@@ -9,8 +9,8 @@
   "runtime~main.js": "/AestheticClock-web/static/js/runtime~main.39a6fdb9.js",
   "runtime~main.js.map": "/AestheticClock-web/static/js/runtime~main.39a6fdb9.js.map",
   "static/media/App.css": "/AestheticClock-web/static/media/HelveticaNeue-UltraLight.0a15436e.otf",
-  "static/css/main.b8773b9e.chunk.css.map": "/AestheticClock-web/static/css/main.b8773b9e.chunk.css.map",
+  "static/css/main.aadebcb8.chunk.css.map": "/AestheticClock-web/static/css/main.aadebcb8.chunk.css.map",
   "index.html": "/AestheticClock-web/index.html",
-  "precache-manifest.2780609ef8660eae5d9fbf889027184e.js": "/AestheticClock-web/precache-manifest.2780609ef8660eae5d9fbf889027184e.js",
+  "precache-manifest.c5247822ebead8d07fc1860ac7e51afc.js": "/AestheticClock-web/precache-manifest.c5247822ebead8d07fc1860ac7e51afc.js",
   "service-worker.js": "/AestheticClock-web/service-worker.js"
 }
