@@ -14,7 +14,7 @@ html {
 }
 
 a {
-  color: #8f8f8f;
+  color: rgb(169,169,169);
   text-decoration: none;
 }
 
@@ -86,10 +86,10 @@ footer.footer {
   height: 10vh;
   align-items: center;
   justify-content: right;
-  padding: 0 1em 0 0;
+  padding: 0 2em 0 0;
   font-family: 'HelveticaNeue-UltraLight';
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 2vmax;
 }
 
 html body [data-ca3_iconfont="ETmodules"]::before {
