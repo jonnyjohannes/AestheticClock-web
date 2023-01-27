@@ -1,3 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 @font-face {
   font-family: 'HelveticaNeue-UltraLight';
   src: local('HelveticaNeue-UltraLight'), url(./fonts/HelveticaNeue-UltraLight.otf), format('opentype');
@@ -5,6 +15,7 @@
 
 a {
   color: #8f8f8f;
+  text-decoration: none;
 }
 
 h1 {
@@ -23,54 +34,62 @@ ul li {
 }
 
 pre {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 0.7em;
+  overflow-x: auto;
   margin: 2em 0 2em -2em;
-  background: rgba(0,0,0,0.7);
-  color: #fff;
   padding: 0.8em 1em;
   border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -webkit-border-radius: 0.4em;
-  overflow-x: auto;
-  font-size: 0.7em;
 }
 
-.AestheticClock {
-}
-
-.AestheticClock-header {
-  background-color: #000000;
-  min-height: 100vh;
+header.header {
+  background: black;
+  color: white;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'HelveticaNeue-UltraLight';
   font-size: calc(100vw / 5);
-  color: white;
 }
 
-.footer-nudge {
+.nudge {
   position: absolute;
   right: 30px;
   bottom: 30px;
   left: 30px;
   font-size: 24px;
   text-align: center;
-  font-family: "Futura";
   font-weight: 400;
 }
 
-#AestheticClock-body {
-  text-align: left;
-  background-color: #ffffff;
+section.section {
+  background: white;
+  color: black;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   font-family: 'Futura';
-  font-size: calc(100vw / 50);
-  color: black;
+  font-size: 3vw;
+}
+
+footer.footer {
+  background: black;
+  color: white;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: right;
+  padding: 0 1em 0 0;
+  font-family: 'HelveticaNeue-UltraLight';
+  font-weight: 600;
+  font-size: 2vw;
 }
 
 html body [data-ca3_iconfont="ETmodules"]::before {

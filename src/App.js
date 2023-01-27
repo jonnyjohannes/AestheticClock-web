@@ -24,18 +24,18 @@ function App() {
 
   return (
     <div className="AestheticClock">
-      <header className="AestheticClock-header">
+      <header className="header">
         <h1>AestheticClock macOs Screensaver</h1>
         {`${getCalendarComponent('hours')} ${getCalendarComponent('minutes')} ${getCalendarComponent('seconds')}`}
         <div className="footer-nudge">
-          <a href="#AestheticClock-body" className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""> </a>
+          <a href="#install" className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""> </a>
         </div>
       </header>
-      <div id="AestheticClock-body">
+      <section className="section" id="install">
         AestheticClock macOS Screensaver install:
         <ul>
           <li>
-            <a href={process.env.PUBLIC_URL + '/AestheticClockSaver.zip'} className='AestheticClock-link' download>download</a>
+            <a href={process.env.PUBLIC_URL + '/AestheticClockSaver.zip'} download>download</a>
           </li>
           <li>
             or via homebrew
@@ -46,8 +46,11 @@ function App() {
             </pre>
           </li>
         </ul>
+      </section>
+      <footer className="footer">
+        by&nbsp;<a href="https://jonnyjohannes.com">j2</a>
+      </footer>
 
-      </div>
     </div>
   );
 }
