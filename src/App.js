@@ -1,7 +1,10 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 function App() {
+  ReactGA.initialize('G-D3JKRYZDNW');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -40,9 +43,11 @@ function App() {
           <li>
             or via homebrew
             <pre>
-              brew tap jonnyjohannes/aesthetic-clock-screensaver
-              <br/>
-              brew install aesthetic-clock-screensaver
+              <code>
+                brew tap jonnyjohannes/aesthetic-clock-screensaver
+                <br/>
+                brew install aesthetic-clock-screensaver
+              </code>
             </pre>
           </li>
         </ul>
